@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@config "./tailwind.config.js";
+/* Custom CSS Variables */
+
+@layer components {
+  body {
+    @apply bg-gradient-to-r from-lime-800 to-blue-900;
+  }
+  .section-container {
+    @apply mx-auto w-full max-w-[1280] scroll-mt-22 text-white md:px-12;
+  }
+
+  /* hide heder */
+  .hide {
+    @apply -top-24;
+  }
+
+  /* Show header */
+  .visible {
+    @apply top-0;
+  }
+
+  .common-link {
+    @apply rounded-sm px-5 py-2 hover:bg-gradient-to-r hover:from-emerald-800 hover:to-sky-800 active:bg-gradient-to-r active:from-emerald-900 active:to-sky-900;
+  }
+}
