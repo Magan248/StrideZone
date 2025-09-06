@@ -1,10 +1,11 @@
 import HeroImage from '../assets/hero-image.svg'
+import bgRoad from '../assets/background-road.png'
 export default function HeroSection() {
   return (
     <section
       id='hero'
-      className='section-container bg-[url(/images/background-road.png)] bg-cover bg-right bg-no-repeat px-6
-        md:bg-contain'
+      className='section-container bg-cover bg-right bg-no-repeat px-6 md:bg-contain'
+      style={{ backgroundImage: `url(${bgRoad})` }}
     >
       <div className='mx-auto flex max-w-6xl flex-col justify-between pt-36 pb-10 md:flex-row md:items-center'>
         <h1
