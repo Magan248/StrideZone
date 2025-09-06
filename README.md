@@ -5,7 +5,12 @@ It highlights products, brand story, and ensures a smooth user experience across
 
 🔗 **Live Demo:** [StrideZone](https://stridezone.netlify.app)
 
----
+## 🎨 Figma Design Reference
+
+- The UI/UX design for this project is based on a Figma design:  
+  [View the Figma Design](https://www.figma.com/design/KRagV1oBRnzQAOIOwalUgz/The-Shoe-Company?node-id=0-1&p=f)
+
+**Note:** The layout and structure follow the Figma design closely, but colors, hover effects, and active background states have been customized in this implementation.
 
 ## ✨ Features
 

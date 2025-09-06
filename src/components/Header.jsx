@@ -29,7 +29,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className='cursor-pointer text-3xl rounded-lg px-1 hover:bg-gradient-to-r hover:from-indigo-500
+            className='cursor-pointer text-3xl rounded-lg p-2 hover:bg-gradient-to-r hover:from-indigo-500
               hover:to-emerald-500 active:bg-gradient-to-r active:from-emerald-500 active:to-indigo-500
               md:hidden'
             onClick={() => setIsOpen(!isOpen)}
