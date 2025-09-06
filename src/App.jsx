@@ -1,5 +1,4 @@
 import { lazy, Suspense } from 'react'
-import './App.css'
 import Header from './components/Header'
 const HeroSection = lazy(() => import('./components/HeroSection'))
 const HowItWorks = lazy(() => import('./components/HowItWorks'))
