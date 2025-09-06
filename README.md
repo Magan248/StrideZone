@@ -22,7 +22,12 @@ It highlights products, brand story, and ensures a smooth user experience across
 
 🧩 Reusable Components – Scalable modular React structure
 
+🚀 Interactive Modal – Built using React Portal for seamless user experience
+
 🌙 Clean Codebase – ESLint & Prettier integrated for consistency
+
+🚀 Performance Optimized – Lazy loading & code-splitting implemented for faster load times.  
+All images are also lazy-loaded for better performance.
 
 ## 🚀 One-Click Deploy – Hosted on Netlify
 
