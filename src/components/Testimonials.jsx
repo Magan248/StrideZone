@@ -1,4 +1,3 @@
-import React from 'react'
 import TestimonialOne from '../assets/testimonial-1.svg'
 import TestimonialTwo from '../assets/testimonial-2.svg'
 import TestimonialThree from '../assets/testimonial-3.svg'

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 
 export default function Modal({ isOpen, setIsOpen, children }) {
@@ -13,7 +13,7 @@ export default function Modal({ isOpen, setIsOpen, children }) {
 
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
-  }, [isOpen])
+  }, [isOpen, setIsOpen])
 
   useEffect(() => {
     if (isOpen) {

@@ -1,4 +1,3 @@
-import React from 'react'
 import HowItWork from '../assets/how-it-works-image 1.svg'
 import ArrowOne from '../assets/arrow-1.svg'
 import ArrowTwo from '../assets/arrow-2.svg'

@@ -1,4 +1,4 @@
-import { lazy, react, Suspense, useState } from 'react'
+import { lazy, Suspense, useState } from 'react'
 const Logo = lazy(() => import('./HeaderLogo'))
 const DesktopNav = lazy(() => import('./HeaderDesktopNav'))
 const MobileMenu = lazy(() => import('./HeaderMobileMenu'))
@@ -29,8 +29,9 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className='cursor-pointer text-3xl rounded-lg px-1 hover:text-sky-950 active:bg-gradient-to-r
-              active:from-emerald-800 active:to-sky-800 md:hidden'
+            className='cursor-pointer text-3xl rounded-lg px-1 hover:bg-gradient-to-r hover:from-indigo-500
+              hover:to-emerald-500 active:bg-gradient-to-r active:from-emerald-500 active:to-indigo-500
+              md:hidden'
             onClick={() => setIsOpen(!isOpen)}
           >
             ☰

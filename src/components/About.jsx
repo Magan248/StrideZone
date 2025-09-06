@@ -1,4 +1,3 @@
-import React from 'react'
 import AboutShoeCompany from '../assets/about-shoe-company.svg'
 import AboutUsBackground from '../assets/about-us-bg.svg'
 

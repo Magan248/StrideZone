@@ -1,12 +1,124 @@
-# React + Vite
+# 👟 StrideZone - The Shoe Company
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StrideZone is a modern, responsive, and stylish Shoe Company Website built with React + Vite + Tailwind CSS.
+It highlights products, brand story, and ensures a smooth user experience across all devices.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [StrideZone](https://stridezone.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚡ Blazing Fast – Powered by Vite
+
+🎨 Modern UI/UX – Tailwind CSS for clean and responsive design
+
+📱 Fully Responsive – Mobile-first approach, works on all devices
+
+🧩 Reusable Components – Scalable modular React structure
+
+🌙 Clean Codebase – ESLint & Prettier integrated for consistency
+
+## 🚀 One-Click Deploy – Hosted on Netlify
+
+## 🛠️ Tech Stack
+
+- React – For building UI components
+
+- Vite – Fast bundler & development server
+
+- Tailwind CSS – Utility-first CSS framework
+
+- ESLint – Code linting & error checking
+
+## Prettier – Code formatting
+
+## 📂 Folder Structure
+
+StrideZone/
+├── public/ # Static files
+├── src/
+│ ├── assets/ # Images, icons, static assets
+│ ├── components/ # Reusable UI components
+│ ├── hooks/ # Custom React hooks
+│ ├── App.jsx # Root React component
+│ ├── main.jsx # React entry point
+│ ├── index.css # Global styles (Tailwind)
+│ └── App.css # Additional styles
+├── .eslintrc.js # ESLint configuration
+├── .prettierrc.json # Prettier configuration
+├── package.json # Dependencies & scripts
+├── vite.config.js # Vite configuration
+├── tailwind.config.js # Tailwind configuration
+├── index.html # Main HTML file
+└── README.md # Project documentation
+
+---
+
+## ⚙️ Getting Started
+
+Clone and run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Magan248/StrideZone.git
+cd StrideZone
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 📸 Screenshots
+
+### 🖥️ Desktop View
+
+- **Home Page**
+  ![Home Page](./screenshots/DesktopHome.png)
+
+- **About Section**
+  ![About Section](./screenshots/DesktopHowItWork.png)
+
+- **Product About**
+  ![Product Section](./screenshots/DesktopAbout.png)
+
+- **Testimonials Section**
+  ![Contact Section](./screenshots/DesktopTestimonials.png)
+
+---
+
+### 📱 Mobile View
+
+- **Home Page (Mobile)**
+  ![Home Mobile](./screenshots/MobileHome.png)
+
+- **Mobile Home with How it work Section**
+  ![Contact Section](./screenshots/MobileHomeWithHowitwork.png)
+- **Mobile Testimonials Section**
+  ![Contact Section](./screenshots/MobileTestimonial.png)
+
+  🧹 Code Quality
+
+#### This project follows industry best practices:
+
+✅ Linting with ESLint (npm run lint)
+
+🔧 Auto-fix common issues (npm run lint:fix)
+
+🎯 Prettier for consistent code formatting
+
+## 👨‍💻 Author
+
+**Magan Singh**
+
+- GitHub: [@Magan248](https://github.com/Magan248)
+- LinkedIn: [Magan Singh](https://www.linkedin.com/in/magan248)
+- Live Demo: [StrideZone](https://stridezone.netlify.app/?utm_source=newsletter&utm_medium=email)

@@ -1,4 +1,3 @@
-import React from 'react'
 import Facebook from '../assets/facebook.svg'
 import Instagram from '../assets/instagram.svg'
 import Twitch from '../assets/twitch.svg'
@@ -13,8 +12,7 @@ export default function Contact() {
       <div className='mb-10 lg:mb-0'>
         <h2 className='w-80 text-3xl font-bold md:text-6xl'>Contact Us</h2>
         <p className='max-w-40 py-8'>
-          THE SHOE COMPANY, Dallas, Texas, USA&nbsp;&nbsp;&nbsp; +1 5590 1120
-          9910
+          THE SHOE COMPANY, Dallas, Texas, USA&nbsp;&nbsp;&nbsp; +1 5590 1120 9910
         </p>
         <div className='flex space-x-4'>
           <a href='#'>

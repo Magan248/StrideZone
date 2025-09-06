@@ -1,4 +1,4 @@
-import { lazy, react, Suspense, useState } from 'react'
+import { lazy, Suspense } from 'react'
 import './App.css'
 import Header from './components/Header'
 const HeroSection = lazy(() => import('./components/HeroSection'))
@@ -11,7 +11,7 @@ const Footer = lazy(() => import('./components/Footer'))
 function App() {
   return (
     <>
-      <Header /> //{/* Already handles lazy + Suspense internally */}
+      <Header /> {/* Already handles lazy + Suspense internally */}
       <Suspense>
         <HeroSection />
       </Suspense>
